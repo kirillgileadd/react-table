@@ -5,11 +5,11 @@ const initialState: TodoState = {
     error: '',
     loading: false,
     page: 1,
-    limit: 10,
+    limit: 8,
     sort: null,
     filter: null,
     search: null,
-    totalCount: null
+    totalCount: 0
 }
 
 export default function todoReducer(state = initialState, action: TodoAction): TodoState {
@@ -20,6 +20,8 @@ export default function todoReducer(state = initialState, action: TodoAction): T
             return {...state, todos: action.payload, loading: false}
         case TodoActionEnum.SET_TODO_TOTAL_COUNT:
             return {...state, totalCount: action.payload}
+        case TodoActionEnum.SET_CURRENT_PAGE:
+            return {...state, page: action.payload}
         case TodoActionEnum.SET_TODO_ERROR:
             return {...state, error: action.payload, loading: false}
         default:

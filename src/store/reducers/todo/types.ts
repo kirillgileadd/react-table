@@ -9,7 +9,7 @@ export interface TodoState {
     sort: null | string;
     filter: null | string;
     search: null | string;
-    totalCount: null | number;
+    totalCount: number;
 }
 
 export enum TodoActionEnum {
@@ -17,6 +17,7 @@ export enum TodoActionEnum {
     SET_TODO_SUCCESS = "SET_TODO_SUCCESS",
     SET_TODO_TOTAL_COUNT = "SET_TODO_TOTAL_COUNT",
     SET_TODO_ERROR = "SET_TODO_ERROR",
+    SET_CURRENT_PAGE = "SET_CURRENT_PAGE",
 }
 
 export interface SetTodoAction {
@@ -26,6 +27,11 @@ export interface SetTodoAction {
 export interface SetTodoSuccessAction {
     type: TodoActionEnum.SET_TODO_SUCCESS,
     payload: ITodo[]
+}
+
+export interface setCurrentPageAction {
+    type: TodoActionEnum.SET_CURRENT_PAGE,
+    payload: number
 }
 
 export interface SetTodoTotalCount {
@@ -43,3 +49,4 @@ export type TodoAction =
     | SetTodoSuccessAction
     | SetTodoErrorAction
     | SetTodoTotalCount
+    | setCurrentPageAction

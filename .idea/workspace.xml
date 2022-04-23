@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce2c80d-5ae7-4162-984e-09feb6c35cf3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compontents/Loader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compontents/TodoTable.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ITodo.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/FAQPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TodoPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/todo/action-creators.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/todo/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/todo/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compontents/TodoPagination.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compontents/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compontents/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compontents/UserItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compontents/UserItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UserPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compontents/TodoTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compontents/TodoTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TodoPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TodoPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/todo/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/todo/action-creators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/todo/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/todo/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/todo/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/todo/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650720533582</updated>
-      <workItem from="1650720534894" duration="2161000" />
+      <workItem from="1650720534894" duration="4688000" />
     </task>
     <servers />
   </component>
