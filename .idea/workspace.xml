@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14cc97cf-19f7-45d0-b1e1-e688a28b47aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/UserDetails.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/userDetails/action-creators.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/userDetails/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/userDetails/types.ts" afterDir="false" />
+    <list default="true" id="bce2c80d-5ae7-4162-984e-09feb6c35cf3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compontents/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compontents/TodoTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ITodo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/FAQPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TodoPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/todo/action-creators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/todo/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/todo/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compontents/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compontents/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compontents/UserItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compontents/UserItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compontents/UserList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compontents/UserList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/UserPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/user/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/user/action-creators.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/user/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/user/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/user/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/user/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +35,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28BmTbzWFnewMTr4fD1furFaIxu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="28CVP8ZykGQPzCzj2VT7dCl8gra" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,25 +52,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\Stalin\Desktop\react\react-table\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Stalin\Desktop\react\react-table\src\store\reducers" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14cc97cf-19f7-45d0-b1e1-e688a28b47aa" name="Changes" comment="" />
-      <created>1650698361712</created>
+      <changelist id="bce2c80d-5ae7-4162-984e-09feb6c35cf3" name="Changes" comment="" />
+      <created>1650720533582</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1650698361712</updated>
-      <workItem from="1650698363049" duration="9147000" />
+      <updated>1650720533582</updated>
+      <workItem from="1650720534894" duration="2161000" />
     </task>
     <servers />
   </component>

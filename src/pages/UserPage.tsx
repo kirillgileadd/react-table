@@ -19,7 +19,7 @@ const UserPage: FC = () => {
 
     return (
         <Box>
-            <Typography variant='h6'>Спипок пользователей</Typography>
+            <Typography variant='h4' sx={{mb: 2}}>Спипок пользователей</Typography>
             <UserList users={users}/>
         </Box>
     );

@@ -14,8 +14,8 @@ const NavBar: FC = () => {
                         sx={{
                             ml: 3,
                         }}
-                        color='secondary'
-                        variant="contained"
+                        color='inherit'
+                        variant="text"
                     >
                         <StyledLink to='/users'>
                             <Button>Пользователи</Button>
@@ -23,7 +23,9 @@ const NavBar: FC = () => {
                         <StyledLink to='/posts'>
                             <Button>Таблица постов</Button>
                         </StyledLink>
-                        <Button>FAQ</Button>
+                        <StyledLink to='/faq'>
+                            <Button>FAQ</Button>
+                        </StyledLink>
                     </ButtonGroup>
                 </Toolbar>
             </AppBar>
