@@ -1,18 +1,18 @@
-import {SetUserAction, SetUserActionError, SetUserActionSuccess, UserActionEmun} from "./types";
+import {SetUserAction, SetUserErrorAction, SetUserSuccessAction, UserActionEnum} from "./types";
 import {IUser} from "../../../models/IUser";
 import {AppDispatch} from "../../index";
 import axios from "axios";
 
 export const UserActionCreators = {
     setUser: (): SetUserAction => ({
-        type: UserActionEmun.SET_USER,
+        type: UserActionEnum.SET_USER,
     }),
-    setUserSuccess: (users: IUser[]): SetUserActionSuccess => ({
-        type: UserActionEmun.SET_USER_SUCCESS,
+    setUserSuccess: (users: IUser[]): SetUserSuccessAction => ({
+        type: UserActionEnum.SET_USER_SUCCESS,
         payload: users
     }),
-    setUserError: (error: string): SetUserActionError => ({
-        type: UserActionEmun.SET_USER_ERROR,
+    setUserError: (error: string): SetUserErrorAction => ({
+        type: UserActionEnum.SET_USER_ERROR,
         payload: error
     }),
     fetchUsers: () => async (dispatch: AppDispatch) => {
@@ -23,5 +23,5 @@ export const UserActionCreators = {
         } catch (e) {
             dispatch(UserActionCreators.setUserError('something Error'))
         }
-    },
+    }
 }

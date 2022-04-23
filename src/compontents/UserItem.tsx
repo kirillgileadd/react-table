@@ -1,34 +1,42 @@
 import React, {FC} from 'react';
 import {IUser} from "../models/IUser";
-import {Avatar, ListItem, ListItemAvatar, ListItemText, Typography} from "@mui/material";
+import {
+    Avatar, Button,
+    Card,
+    CardActions,
+    CardContent,
+    CardMedia,
+    ListItem,
+    ListItemAvatar,
+    ListItemText,
+    Typography
+} from "@mui/material";
+import {StyledLink} from "./UI/StyledLink";
 
 
-const UserItem: FC<IUser> = ({username, address, name, email}) => {
+const UserItem: FC<IUser> = ({username, address, id, name, email}) => {
     return (
-        <ListItem alignItems="center">
-            <ListItemAvatar>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg"/>
-            </ListItemAvatar>
-            <ListItemText
-                primary={name + username}
-                secondary={
-                    <React.Fragment>
-                        <Typography
-                            sx={{display: 'inline'}}
-                            component="span"
-                            variant="body1"
-                            color="text.primary"
-                        >
-                            {email}
-                        </Typography>
-                        <Typography variant="body2">
-                            {address.city}
-                            {address.street}
-                        </Typography>
-                    </React.Fragment>
-                }
+        <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+                component="img"
+                height="140"
+                image="https://source.unsplash.com/random/140%C3%97300/?user"
+                alt="user avatar"
             />
-        </ListItem>
+            <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                    {name}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                    {username}
+                </Typography>
+            </CardContent>
+            <CardActions sx={{display: 'flex', justifyContent: 'flex-end'}}>
+                <StyledLink to={`/users/${id}`}>
+                    <Button size="small">Learn More</Button>
+                </StyledLink>
+            </CardActions>
+        </Card>
     );
 };
 

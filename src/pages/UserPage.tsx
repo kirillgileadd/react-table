@@ -1,7 +1,7 @@
 import React, {FC, useEffect} from 'react';
 import {useActions} from "../hooks/useAction";
 import {useTypeSelector} from "../hooks/useTypeSelector";
-import {Box, CircularProgress, Typography} from "@mui/material";
+import {Box, CircularProgress, Container, Typography} from "@mui/material";
 import UserList from "../compontents/UserList";
 
 const UserPage: FC = () => {
@@ -13,7 +13,7 @@ const UserPage: FC = () => {
         fetchUsers()
     }, [])
 
-    if(loading) {
+    if (loading) {
         return <CircularProgress/>
     }
 
